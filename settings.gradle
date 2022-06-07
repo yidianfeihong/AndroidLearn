@@ -1,0 +1,71 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+
+        maven {
+            allowInsecureProtocol = true
+            url prop_oppoMavenUrl
+
+            credentials {
+                username sonatypeUsername
+                password sonatypeUsername
+            }
+        }
+        maven {
+            allowInsecureProtocol = true
+            url prop_oppoMavenUrlRelease
+
+            credentials {
+                username sonatypeUsername
+                password sonatypePassword
+            }
+
+        }
+        maven {
+            allowInsecureProtocol = true
+            url prop_oppoTestMavenUrl
+        }
+    }
+}
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+
+        maven {
+            allowInsecureProtocol = true
+            url prop_oppoMavenUrl
+
+            credentials {
+                username sonatypeUsername
+                password sonatypeUsername
+            }
+        }
+        maven {
+            allowInsecureProtocol = true
+            url prop_oppoMavenUrlRelease
+
+            credentials {
+                username sonatypeUsername
+                password sonatypePassword
+            }
+
+        }
+        maven {
+            allowInsecureProtocol = true
+            url prop_oppoTestMavenUrl
+        }
+    }
+}
+rootProject.name = "AndroidLearn"
+include ':app'
+include ':jetpackdemo'
+include ':preferencedemo'
+include ':mvxdemo'
+include ':netdemo'
+include ':customviewdemo'
+include ':platform'
+include ':animation'

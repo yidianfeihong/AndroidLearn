@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:background="#F5F5F5"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingLeft="14dp"
+        android:paddingTop="20dp"
+        android:paddingRight="14dp">
+
+        <ImageView
+            android:id="@+id/diagram"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/show_holder_img" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="23dp"
+            android:text="@string/spatial_audio_model_switch_tips"
+            android:textColor="#8C000000"
+            android:textSize="12sp" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp">
+
+            <com.example.preference_demo.SpatialAudioModeView
+                android:id="@+id/mode_off"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                app:spatial_audio_mode_desc="@string/spatial_audio_mode_off"
+                app:spatial_audio_mode_icon_selected="@drawable/spatial_audio_mode_off_light"
+                app:spatial_audio_mode_icon_unselected="@drawable/spatial_audio_mode_off" />
+
+            <com.example.preference_demo.SpatialAudioModeView
+                android:id="@+id/mode_fixed"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                app:spatial_audio_mode_desc="@string/spatial_audio_mode_fixed"
+                app:spatial_audio_mode_icon_selected="@drawable/spatial_audio_mode_on_light"
+                app:spatial_audio_mode_icon_unselected="@drawable/spatial_audio_mode_on" />
+
+            <com.example.preference_demo.SpatialAudioModeView
+                android:id="@+id/mode_head_tracking"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                app:spatial_audio_mode_desc="@string/spatial_audio_mode_head_tracking"
+                app:spatial_audio_mode_icon_selected="@drawable/spatial_audio_mode_on_light"
+                app:spatial_audio_mode_icon_unavailable="@drawable/spatial_audio_mode_on_disabled"
+                app:spatial_audio_mode_icon_unselected="@drawable/spatial_audio_mode_on" />
+
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginRight="10dp">
+
+            <com.example.preference_demo.breath.SpatialAudioFeedbackButton
+                android:id="@+id/btn_test"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+
+
+            <com.example.preference_demo.breath.SpatialAudioFeedbackButton
+                android:id="@+id/btn_test3"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+
+            <com.example.preference_demo.SpatialAudioFeedbackView
+                android:id="@+id/btn_test2"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_alignParentEnd="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="10dp" />
+
+
+        </RelativeLayout>
+
+
+        <com.example.preference_demo.TestButton
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@color/spatial_audio_item_selected_bg" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/spatial_audio_function_description"
+        android:textColor="#8C000000"
+        android:textSize="12sp" />
+
+</LinearLayout>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000000" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000001" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000002" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000003" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000004" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000005" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000006" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000007" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000008" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000009" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000010" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000011" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000012" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000013" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000014" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000015" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000016" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000017" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000018" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000019" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000020" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000021" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000022" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000023" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000024" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000025" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000026" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000027" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000028" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000029" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000030" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000031" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000032" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000033" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000034" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000035" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000036" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000037" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000038" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000039" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000040" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000041" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000042" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000043" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000044" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000045" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000046" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000047" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000048" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000049" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000050" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000051" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000052" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000053" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000054" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000055" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000056" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000057" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000058" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000059" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000060" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000061" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000062" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000063" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000064" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000065" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000066" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000067" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000068" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000069" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000070" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000071" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000072" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000073" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000074" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000075" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000076" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000077" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000078" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000079" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000080" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000081" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000082" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000083" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000084" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000085" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000086" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000087" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000088" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000089" />
+
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000090" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000091" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000092" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000093" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000094" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000095" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000096" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000097" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000098" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000099" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000100" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000101" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000102" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000103" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000104" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000105" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000106" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000107" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000108" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000109" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000110" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000111" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000112" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000113" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000114" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000115" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000116" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000117" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000118" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000119" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000120" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000121" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000122" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000123" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000124" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000125" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000126" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000127" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000128" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000129" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000130" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000131" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000132" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000133" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000134" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000135" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000136" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000137" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000138" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000139" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000140" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000141" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000142" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000143" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000144" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000145" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000146" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000147" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000148" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000149" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000150" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000151" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000152" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000153" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000154" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000155" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000156" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000157" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000158" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000159" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000160" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000161" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000162" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000163" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000164" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000165" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000166" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000167" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000168" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000169" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000170" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000171" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000172" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000173" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000174" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000175" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000176" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000177" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000178" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000179" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000180" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000181" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000182" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000183" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000184" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000185" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000186" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000187" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000188" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000189" />
+
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000190" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000191" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000192" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000193" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000194" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000195" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000196" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000197" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000198" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000199" />
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000200" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000201" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000202" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000203" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000204" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000205" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000206" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000207" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000208" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000209" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000210" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000211" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000212" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000213" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000214" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000215" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000216" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000217" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000218" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000219" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000220" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000221" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000222" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000223" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000224" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000225" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000226" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000227" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000228" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000229" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000230" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000231" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000232" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000233" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000234" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000235" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000236" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000237" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000238" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000239" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000240" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000241" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000242" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000243" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000244" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000245" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000246" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000247" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000248" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000249" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000250" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000251" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000252" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000253" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000254" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000255" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000256" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000257" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000258" />
+    <item android:duration="16" android:drawable="@drawable/audio_black_00000259" />
+	
+	<item android:duration="16" android:drawable="@drawable/audio_black_00000260" />
+	
+	
+</animation-list>

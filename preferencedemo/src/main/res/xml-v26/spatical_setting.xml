@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+
+        <Preference
+            android:iconSpaceReserved="false"
+            android:key="key_spatial_audio_setting"
+            android:title="支持的静态示意图" />
+
+
+        <Preference
+            android:iconSpaceReserved="false"
+            android:key="key_tips"
+            android:summary="@string/spatial_audio_function_description" />
+
+
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+
+
+</PreferenceScreen>

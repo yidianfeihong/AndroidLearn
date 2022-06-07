@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingBottom="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_vertical"
+        android:paddingLeft="20dp"
+        android:paddingTop="14.5dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="14.5dp">
+
+        <ImageView
+            android:id="@+id/iv_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/breath_light_color_cancel" />
+
+        <TextView
+            style="@style/TextAppearance.COUI.List.FocusTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:lineSpacingExtra="-2sp"
+            android:text="@string/breathing_light_color"
+            android:textColor="@color/coui_color_primary_neutral"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/iv_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/breath_light_color_confirm" />
+
+    </RelativeLayout>
+
+
+    <com.coui.appcompat.textview.COUITextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="@string/breathing_light_color_tips"
+        android:textColor="@color/coui_color_secondary_neutral"
+        android:textSize="12sp" />
+
+    <com.coui.appcompat.tablayout.COUITabLayout
+        android:id="@+id/tab_layout"
+        style="@style/COUISmallTabLayoutStyle"
+        android:layout_marginTop="20dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/circle_recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

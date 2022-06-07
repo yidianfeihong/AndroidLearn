@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<breath_light>
+    <mode name="settings_color">
+        <breath_type name="phone" default_color="#2D40E9" />
+        <breath_type name="notification" default_color="#2DA74E" />
+        <breath_type name="game" default_color="#FB6A35" />
+        <optional_color>
+            <color last1="#FFFF00A1" last2="#FFFF00A2" last3="#FFFF00A3" last4="#FFFF00A4">#E32E27</color>
+            <color>#FB6A35</color>
+            <color>#FFC014</color>
+            <color>#2DA74E</color>
+            <color>#2D40E9</color>
+            <color>#2D40E9</color>
+            <color>#FFFFFF</color>
+            <color>#952AF4</color>
+        </optional_color>
+    </mode>
+</breath_light>

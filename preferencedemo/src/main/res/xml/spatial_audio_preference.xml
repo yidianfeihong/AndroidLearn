@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:settings="http://schemas.android.com/apk/res-auto"
+    android:key="spatial_audio_root_key"
+    android:title="@string/spatial_audio">
+
+    <com.coui.appcompat.preference.COUIPreferenceCategory android:key="spatial_audio_switch_category_key">
+
+        <com.example.preference_demo.SpatialAudioSwitchPreference
+            android:enabled="true"
+            android:key="spatial_audio_switch_preference"
+            android:selectable="true" />
+
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+
+</PreferenceScreen>

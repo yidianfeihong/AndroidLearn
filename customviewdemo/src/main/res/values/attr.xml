@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SpatialAudioModeView">
+        <attr name="icon_idle" format="reference|color" />
+        <attr name="icon_enabled" format="reference|color" />
+        <attr name="icon_disabled" format="reference|color" />
+        <attr name="desc" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="BreathLightColorItemView">
+        <attr name="blc_inner_radius" />
+        <attr name="blc_outer_radius" />
+        <attr name="blc_color" format="color" />
+        <attr name="blc_stroke_width" />
+    </declare-styleable>
+
+    <attr name="blc_inner_radius" format="dimension" />
+    <attr name="blc_outer_radius" format="dimension" />
+    <attr name="blc_stroke_width" format="dimension" />
+
+    <declare-styleable name="BreathLightColorEnterView">
+        <attr name="blc_inner_radius" />
+        <attr name="blc_outer_radius" />
+        <attr name="blc_left_color" format="color" />
+        <attr name="blc_mid_color" format="color" />
+        <attr name="blc_right_color" format="color" />
+        <attr name="blc_stroke_color" format="color" />
+        <attr name="blc_stroke_width" />
+    </declare-styleable>
+
+
+</resources>

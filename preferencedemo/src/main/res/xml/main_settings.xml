@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:dependency="feedback"
+        app:initialExpandedChildrenCount="1">
+
+        <SwitchPreferenceCompat
+            android:dependency="test"
+            android:key="notifications"
+            android:title="第一个switch" />
+
+        <SwitchPreferenceCompat
+            android:key="test"
+            android:title="第二个switch " />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory>
+        <Preference android:layout="@layout/test_custom" />
+    </PreferenceCategory>
+
+
+    <Preference
+        android:layout="@layout/test_custom"
+        app:isPreferenceVisible="false" />
+
+    <EditTextPreference
+        android:key="key_input"
+        android:title="请输入" />
+    <PreferenceCategory>
+
+        <Preference
+            android:fragment="com.example.preference_demo.SubFragment"
+            android:key="feedback"
+            android:summary="Report technical issues or suggest new features"
+            android:title="测试一下点击效果" />
+
+    </PreferenceCategory>
+
+    <ListPreference
+        android:entries="@array/list_entries"
+        android:entryValues="@array/list_entries_value"
+        android:key="list"
+        android:title="这是个list" />
+
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+
+
+        <com.coui.appcompat.preference.COUIJumpPreference
+            android:fragment="com.example.preference_demo.SpatialAudioFragment"
+            android:key="key_spatial_audio"
+            android:title="@string/spatial_audio" />
+
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+
+
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+
+        <com.example.preference_demo.breath.BreathingLightAccessPreference
+            android:key="key_breath_light_color"
+            android:title="@string/breathing_light_color" />
+
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <com.coui.appcompat.preference.COUISwitchPreference android:title="测试coui的switch" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+
+
+    <com.coui.appcompat.preference.COUIPreferenceCategory>
+        <SwitchPreference android:title="测试谷歌原版的switch" />
+    </com.coui.appcompat.preference.COUIPreferenceCategory>
+</PreferenceScreen>

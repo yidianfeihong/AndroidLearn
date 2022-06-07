@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Preference_demo</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="spatial_audio">空间音频</string>
+    <string name="spatial_audio_model_switch_tips">空间音频模式切换</string>
+    <string name="spatial_audio_function_description">在支持的音乐、视频、游戏应用中，空间化渲染技术和头部追踪技术可营造更具有空间感的听觉体验。需要佩戴耳机使用。</string>
+    <string name="spatial_audio_mode_off">关闭</string>
+    <string name="spatial_audio_mode_fixed">固定</string>
+    <string name="spatial_audio_mode_head_tracking">头部跟踪</string>
+    <string name="spatial_audio_toast_earphone_unsupported">无法为当前耳机开启此功能</string>
+    <string name="spatial_audio_toast_earphone_disconnected">耳机已断开连接</string>
+
+    <string name="breathing_light_color">呼吸灯颜色</string>
+    <string name="breathing_light_color_call">来电</string>
+    <string name="breathing_light_color_notification">通知</string>
+    <string name="breathing_light_color_game">游戏</string>
+    <string name="breathing_light_color_tips">翻转手机可查看呼吸灯颜色</string>
+    <string name="confirm">Confirm</string>
+    <string name="okay">确认</string>
+
+</resources>
