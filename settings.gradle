@@ -24,6 +24,7 @@ pluginManagement {
 
         }
         maven {
+
             allowInsecureProtocol = true
             url prop_oppoTestMavenUrl
         }

@@ -9,9 +9,11 @@ import android.graphics.Rect
 import android.graphics.drawable.Drawable
 import android.util.AttributeSet
 import android.util.Log
+import android.view.LayoutInflater
 import android.view.MotionEvent
-import android.view.View
 import android.view.ViewGroup
+import android.widget.FrameLayout
+import android.widget.ImageView
 import androidx.core.content.ContextCompat
 import com.coui.appcompat.pressfeedback.COUIPressFeedbackHelper
 import com.example.platform.DisplaySizeUtils
@@ -32,7 +34,7 @@ class SpatialAudioFeedbackView @JvmOverloads constructor(
     context: Context?,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0
-) : View(context, attrs, defStyleAttr) {
+) : FrameLayout(context!!, attrs, defStyleAttr) {
 
     private var mColor = Color.TRANSPARENT
     private var mSolidRadius = 0f
@@ -40,6 +42,7 @@ class SpatialAudioFeedbackView @JvmOverloads constructor(
     private var pressFeedbackHelper: COUIPressFeedbackHelper
     private lateinit var mSolidPaint: Paint
     private lateinit var mStrokePaint: Paint
+    private lateinit var imgView: ImageView
     private var mShowStroke: Boolean = true
     private var iconResId = 0
     var iconDrawable: Drawable? = null
@@ -48,9 +51,14 @@ class SpatialAudioFeedbackView @JvmOverloads constructor(
         initView()
         pressFeedbackHelper =
             COUIPressFeedbackHelper(this, COUIPressFeedbackHelper.CARD_PRESS_FEEDBACK)
+        setWillNotDraw(false)
     }
 
     private fun initView() {
+        imgView =
+            LayoutInflater.from(context).inflate(R.layout.spatial_audio_feedback_view, this, false) as ImageView
+        imgView.setImageResource(R.drawable.spatial_audio_mode_on)
+        addView(imgView)
         mSolidPaint = Paint()
         mSolidPaint.isAntiAlias = true
         mSolidPaint.color = mColor
@@ -107,7 +115,7 @@ class SpatialAudioFeedbackView @JvmOverloads constructor(
         canvas ?: return
         drawSolidCircle(canvas)
         drawStroke(canvas)
-        drawCenterIcon(canvas)
+//        drawCenterIcon(canvas)
     }
 
     private fun drawSolidCircle(canvas: Canvas) {

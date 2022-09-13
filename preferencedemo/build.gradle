@@ -43,4 +43,8 @@ dependencies {
     // Kotlin
     implementation "androidx.preference:preference-ktx:1.2.0"
     implementation 'com.coui.support:coui-support-appcompat:13.0.1-alpha07'
+
+    implementation 'io.reactivex.rxjava2:rxjava:2.0.1'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'com.oplus.flashbackmsgsdk:FlashBackMsgSdk:1.0.0-SNAPSHOT'
 }

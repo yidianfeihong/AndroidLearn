@@ -24,6 +24,40 @@
             android:layout_gravity="center_horizontal"
             android:src="@drawable/show_holder_img" />
 
+
+        <LinearLayout
+            android:id="@+id/spatial_audio_preview"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:background="@drawable/bg_spatial_mode_music_preview_selector"
+            android:gravity="center_vertical"
+            android:paddingStart="6dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="7dp">
+
+            <ImageView
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:src="@drawable/spatial_audio_preview_dark" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginStart="4dp"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="@string/spatial_audio_music_preview_on"
+                android:textColor="#D9000000"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
